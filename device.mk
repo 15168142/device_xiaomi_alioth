@@ -58,6 +58,9 @@ PRODUCT_PACKAGES += \
     WifiOverlayM2012K11AG \
     WifiOverlayM2012K11AI
 
+# Clover Overlays
+DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay-clover
+
 # Shipping API level
 PRODUCT_SHIPPING_API_LEVEL := 30
 
