@@ -59,6 +59,12 @@ vendor/lib/libfcsam.so
 vendor/lib/libmmhardware.so
 vendor/lib/libresampler.so
 vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
+vendor/lib/libacdb-fts.so
+vendor/lib/libacdbloader.so
+vendor/lib/libacdbrtac.so
+vendor/lib/libadiertac.so
+vendor/lib/libaudcal.so
+vendor/lib/libssrec.so
 
 # Audio firmware
 vendor/firmware/cs35l41-dsp1-diag-revb2.wmfw
@@ -391,6 +397,13 @@ vendor/firmware/ipa_uc.b01
 vendor/firmware/ipa_uc.b02
 vendor/firmware/ipa_uc.elf
 vendor/firmware/ipa_uc.mdt
+
+# Listen
+vendor/lib/hw/sound_trigger.primary.kona.so
+vendor/lib/libcapiv2svacnn.so
+vendor/lib/libgcs-calwrapper.so
+vendor/lib/libgcs-ipc.so
+vendor/lib/libgcs.so
 
 # NFC
 vendor/etc/libnfc-nxp_RF.conf:vendor/libnfc-nxp_RF.conf
