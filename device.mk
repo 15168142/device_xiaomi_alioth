@@ -29,6 +29,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libpiex_shim
 
+$(call inherit-product-if-exists, device/xiaomi/camera/miuicamera.mk)
+$(call soong_config_set,camera,uses_miui_camera,true)
+
 # Init
 $(call soong_config_set,xiaomi_kona,variant_lib,//$(LOCAL_PATH):libvariant_xiaomi_alioth)
 
