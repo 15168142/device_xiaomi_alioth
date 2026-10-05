@@ -15,7 +15,7 @@ $(call inherit-product, vendor/custom/config/common_full_phone.mk)
 $(call inherit-product, device/xiaomi/alioth/device.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := custom_alioth
+PRODUCT_NAME := alioth
 PRODUCT_DEVICE := alioth
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := POCO
