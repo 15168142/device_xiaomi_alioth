@@ -7,6 +7,9 @@
 # A/B
 TARGET_IS_VAB := true
 
+# Use the AW8697 vibrator
+TARGET_USES_AW8697_VIBRATOR := true
+
 # Inherit from sm8250-common
 $(call inherit-product, device/xiaomi/sm8250-common/kona.mk)
 
